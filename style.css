@@ -21,7 +21,7 @@ header{
     text-decoration:underline;
     padding: 3rem;
 }
-.calculator{
+#calculator{
     text-align: center;    
     width: 50%; 
     padding: 2rem;   
@@ -37,11 +37,11 @@ header{
     background-color: black;
     color:#04F404;
 }
-.calculatorButtons{
+#calculatorButtons{
     display: flex;        
     flex-wrap: wrap;
 }
-.calculatorButtons button{
+#calculatorButtons button{
     display: flex;
     align-items: center;
     justify-content: center;    
@@ -52,11 +52,11 @@ header{
     margin: auto;
     font-size: 2rem;
 }
-.calculatorButtons button:hover{
+#calculatorButtons button:hover{
     background: yellow;
 }
 #btnCLEAR, #btnDEL{
-    min-width: calc(100% / 2);
+    min-width: calc(100% / 2)!important;
 }
 .footer{
     text-align: center;    
